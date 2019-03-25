@@ -1,5 +1,6 @@
 from flask import Flask
 
+#创建APP对象
 def create_app():
     app = Flask(__name__)
     app.config.from_object('config')

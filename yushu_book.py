@@ -5,7 +5,7 @@ import helper
 
 class yushu_book:
     #将url里面的q传到下面方法，就会调用http请求，获取接口返回数据
-    get_isbn = 'http://t.yushu.im/v2/web/isbn/{}'
+    get_isbn = 'http://t.yushu.im/v2/book/isbn/{}'
     get_q = 'http://t.yushu.im/v2/web/search?q={}&start={}&count={}'
     @classmethod
     def yushu_book_isbn(cls,q):
